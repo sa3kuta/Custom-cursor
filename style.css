@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    cursor: none; }
+
+#custom-cursor {
+    position: absolute;
+    width: 30px; 
+    height: 30px; 
+    background-image: url('cursor/cursor.png'); 
+    background-size: cover; 
+    pointer-events: none; 
+    transform: translate(-50%, -50%); }
